@@ -22,18 +22,18 @@ The `run_analysis.R` script performs data preparation and follows the necessary 
 4. **Extracts only the measurements on the mean and standard deviation for each measurement**
    - `TidyData` is created by subsetting `Merged_Data`, selecting only columns: `subject`, `code` and the measurements on the `mean` and standard deviation (`std`) for each measurement
 
-5.**Uses descriptive activity names to name the activities in the data set**
-  - Entire numbers in code column of the `TidyData` replaced with corresponding activity taken from second column of the `activities` variable
+5. **Uses descriptive activity names to name the activities in the data set**
+   - Entire numbers in code column of the `TidyData` replaced with corresponding activity taken from second column of the `activities` variable
 
-6.**Appropriately labels the data set with descriptive variable names**
-  - `code` column in `TidyData` renamed into `activities`
-  - All `Acc` in column’s name replaced by `Accelerometer`
-  - All `Gyro` in column’s name replaced by `Gyroscope`
-  - All `BodyBody` in column’s name replaced by `Body`
-  - All `Mag` in column’s name replaced by `Magnitude`
-  - All start with character `f` in column’s name replaced by `Frequency`
-  - All start with character `t` in column’s name replaced by `Time`
+6. **Appropriately labels the data set with descriptive variable names**
+   - `code` column in `TidyData` renamed into `activities`
+   - All `Acc` in column’s name replaced by `Accelerometer`
+   - All `Gyro` in column’s name replaced by `Gyroscope`
+   - All `BodyBody` in column’s name replaced by `Body`
+   - All `Mag` in column’s name replaced by `Magnitude`
+   - All start with character `f` in column’s name replaced by `Frequency`
+   - All start with character `t` in column’s name replaced by `Time`
 
-7.**From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject**
-  - `FinalData` is created by sumarizing `TidyData` taking the means of each variable for each activity and each subject, after groupped by subject and activity.
- - Export `FinalData` into `FinalData.txt file`.
+7. **From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject**
+   - `FinalData` is created by sumarizing `TidyData` taking the means of each variable for each activity and each subject, after groupped by subject and activity.
+  - Export `FinalData` into `FinalData.txt file`.
