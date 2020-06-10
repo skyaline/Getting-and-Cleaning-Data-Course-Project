@@ -1,0 +1,38 @@
+# A tibble: 180 x 88
+# Groups:   subject [30]
+   subject activity TimeBodyAcceler~ TimeBodyAcceler~ TimeBodyAcceler~ TimeGravityAcce~ TimeGravityAcce~ TimeGravityAcce~ TimeBodyAcceler~ TimeBodyAcceler~
+     <int> <chr>               <dbl>            <dbl>            <dbl>            <dbl>            <dbl>            <dbl>            <dbl>            <dbl>
+ 1       1 LAYING              0.222         -0.0405           -0.113            -0.249            0.706           0.446            0.0811         0.00384 
+ 2       1 SITTING             0.261         -0.00131          -0.105             0.832            0.204           0.332            0.0775        -0.000619
+ 3       1 STANDING            0.279         -0.0161           -0.111             0.943           -0.273           0.0135           0.0754         0.00798 
+ 4       1 WALKING             0.277         -0.0174           -0.111             0.935           -0.282          -0.0681           0.0740         0.0283  
+ 5       1 WALKING~            0.289         -0.00992          -0.108             0.932           -0.267          -0.0621           0.0542         0.0297  
+ 6       1 WALKING~            0.255         -0.0240           -0.0973            0.893           -0.362          -0.0754           0.101          0.0195  
+ 7       2 LAYING              0.281         -0.0182           -0.107            -0.510            0.753           0.647            0.0826         0.0123  
+ 8       2 SITTING             0.277         -0.0157           -0.109             0.940           -0.106           0.199            0.0723         0.0117  
+ 9       2 STANDING            0.278         -0.0184           -0.106             0.897           -0.370           0.130            0.0748         0.0103  
+10       2 WALKING             0.276         -0.0186           -0.106             0.913           -0.347           0.0847           0.0618         0.0182  
+# ... with 170 more rows, and 78 more variables: TimeBodyAccelerometerJerk.mean...Z <dbl>, TimeBodyGyroscope.mean...X <dbl>, TimeBodyGyroscope.mean...Y <dbl>,
+#   TimeBodyGyroscope.mean...Z <dbl>, TimeBodyGyroscopeJerk.mean...X <dbl>, TimeBodyGyroscopeJerk.mean...Y <dbl>, TimeBodyGyroscopeJerk.mean...Z <dbl>,
+#   TimeBodyAccelerometerMagnitude.mean.. <dbl>, TimeGravityAccelerometerMagnitude.mean.. <dbl>, TimeBodyAccelerometerJerkMagnitude.mean.. <dbl>,
+#   TimeBodyGyroscopeMagnitude.mean.. <dbl>, TimeBodyGyroscopeJerkMagnitude.mean.. <dbl>, FrequencyBodyAccelerometer.mean...X <dbl>,
+#   FrequencyBodyAccelerometer.mean...Y <dbl>, FrequencyBodyAccelerometer.mean...Z <dbl>, FrequencyBodyAccelerometer.meanFreq...X <dbl>,
+#   FrequencyBodyAccelerometer.meanFreq...Y <dbl>, FrequencyBodyAccelerometer.meanFreq...Z <dbl>, FrequencyBodyAccelerometerJerk.mean...X <dbl>,
+#   FrequencyBodyAccelerometerJerk.mean...Y <dbl>, FrequencyBodyAccelerometerJerk.mean...Z <dbl>, FrequencyBodyAccelerometerJerk.meanFreq...X <dbl>,
+#   FrequencyBodyAccelerometerJerk.meanFreq...Y <dbl>, FrequencyBodyAccelerometerJerk.meanFreq...Z <dbl>, FrequencyBodyGyroscope.mean...X <dbl>,
+#   FrequencyBodyGyroscope.mean...Y <dbl>, FrequencyBodyGyroscope.mean...Z <dbl>, FrequencyBodyGyroscope.meanFreq...X <dbl>,
+#   FrequencyBodyGyroscope.meanFreq...Y <dbl>, FrequencyBodyGyroscope.meanFreq...Z <dbl>, FrequencyBodyAccelerometerMagnitude.mean.. <dbl>,
+#   FrequencyBodyAccelerometerMagnitude.meanFreq.. <dbl>, FrequencyBodyAccelerometerJerkMagnitude.mean.. <dbl>,
+#   FrequencyBodyAccelerometerJerkMagnitude.meanFreq.. <dbl>, FrequencyBodyGyroscopeMagnitude.mean.. <dbl>, FrequencyBodyGyroscopeMagnitude.meanFreq.. <dbl>,
+#   FrequencyBodyGyroscopeJerkMagnitude.mean.. <dbl>, FrequencyBodyGyroscopeJerkMagnitude.meanFreq.. <dbl>, Angle.TimeBodyAccelerometerMean.Gravity. <dbl>,
+#   Angle.TimeBodyAccelerometerJerkMean..GravityMean. <dbl>, Angle.TimeBodyGyroscopeMean.GravityMean. <dbl>, Angle.TimeBodyGyroscopeJerkMean.GravityMean. <dbl>,
+#   Angle.X.GravityMean. <dbl>, Angle.Y.GravityMean. <dbl>, Angle.Z.GravityMean. <dbl>, TimeBodyAccelerometer.std...X <dbl>, TimeBodyAccelerometer.std...Y <dbl>,
+#   TimeBodyAccelerometer.std...Z <dbl>, TimeGravityAccelerometer.std...X <dbl>, TimeGravityAccelerometer.std...Y <dbl>, TimeGravityAccelerometer.std...Z <dbl>,
+#   TimeBodyAccelerometerJerk.std...X <dbl>, TimeBodyAccelerometerJerk.std...Y <dbl>, TimeBodyAccelerometerJerk.std...Z <dbl>, TimeBodyGyroscope.std...X <dbl>,
+#   TimeBodyGyroscope.std...Y <dbl>, TimeBodyGyroscope.std...Z <dbl>, TimeBodyGyroscopeJerk.std...X <dbl>, TimeBodyGyroscopeJerk.std...Y <dbl>,
+#   TimeBodyGyroscopeJerk.std...Z <dbl>, TimeBodyAccelerometerMagnitude.std.. <dbl>, TimeGravityAccelerometerMagnitude.std.. <dbl>,
+#   TimeBodyAccelerometerJerkMagnitude.std.. <dbl>, TimeBodyGyroscopeMagnitude.std.. <dbl>, TimeBodyGyroscopeJerkMagnitude.std.. <dbl>,
+#   FrequencyBodyAccelerometer.std...X <dbl>, FrequencyBodyAccelerometer.std...Y <dbl>, FrequencyBodyAccelerometer.std...Z <dbl>,
+#   FrequencyBodyAccelerometerJerk.std...X <dbl>, FrequencyBodyAccelerometerJerk.std...Y <dbl>, FrequencyBodyAccelerometerJerk.std...Z <dbl>,
+#   FrequencyBodyGyroscope.std...X <dbl>, FrequencyBodyGyroscope.std...Y <dbl>, FrequencyBodyGyroscope.std...Z <dbl>, FrequencyBodyAccelerometerMagnitude.std.. <dbl>,
+#   FrequencyBodyAccelerometerJerkMagnitude.std.. <dbl>, FrequencyBodyGyroscopeMagnitude.std.. <dbl>, FrequencyBodyGyroscopeJerkMagnitude.std.. <dbl>
